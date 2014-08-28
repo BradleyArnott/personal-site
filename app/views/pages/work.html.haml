@@ -1,0 +1,67 @@
+%ul.nav-bar
+  %li= link_to 'Contact', contact_path
+  %li= link_to 'Blog', 'http://imatechnerd.tumblr.com'
+  %li= link_to 'Work', work_path
+  %li= link_to 'About me', about_me_path
+  %li= link_to image_tag('home.png'), home_path, class: 'home-icon'
+
+#container
+  %ul.project-list
+    %li.project
+      .project-graphic
+        %iframe(width="480" height="320" src="//www.youtube.com/embed/ygC6rgrRdUY?showinfo=0&iv_load_policy=3&controls=0" frameborder="0" allowfullscreen)
+      .project-info
+        %h2 Thor - Introduction Sequence
+        %p For this project we had to make a motion graphics title sequence that was no longer than 30 seconds. I chose to stay with the same film that I made for the poster aswell as i thought that it would work well together.
+        %p Skills used:
+        %ul
+          %li Adobe after effects
+          %li Adobe illustrator
+          %li Motion graphics
+    %li.project
+      .project-graphic
+        %iframe(width="480" height="320" src="//www.youtube.com/embed/9jQIcXJoy3s?showinfo=0&iv_load_policy=3&controls=0" frameborder="0" allowfullscreen align='left')
+      .project-info
+        %h2 Spaceship racing
+        %p This is a short animation that I made within Autodesk 3ds max. It includes 2 spaceships that are racing, they start to get competitive and overtake eachother
+        %p Skills used:
+        %ul
+          %li Autodesk 3ds max
+          %li 3d modelling
+    %li.project
+      .project-graphic
+        %iframe(width="480" height="320" src="//www.youtube.com/embed/1Ld2ny8BT-o?showinfo=0&iv_load_policy=3&controls=0" frameborder="0" allowfullscreen align='left')
+      .project-info
+        %h2 Short film - Travelling Into The Unknown
+        %p I directed and shot this short film that I made with a few of my friends from university. It's a mysterious thriller that invloves an object that you don't think about everyday!
+        %p Skills used:
+        %ul
+          %li Adobe after effects
+          %li Filming
+          %li Adobe premier pro
+    %li.project
+      .project-graphic
+        = image_tag 'logo.png', class: 'logo'
+        = image_tag 'business_card.png', class: 'business-card'
+      .project-info
+        %h2 Branding
+        %p This is just part of a self branding styleguide that I made for myself. My initals are the main part of this. I like to keep thing simple as it can show off the typography and layout that has been designed.
+        %p Skills used:
+        %ul
+          %li Adobe Photoshop
+          %li Graphic design
+          %li Layout
+          %li Typography
+    %li.project
+      .project-graphic
+        = image_tag 'poster.png', class: 'poster'
+      .project-info
+        %h2 Thor movie poster
+        %p I decided to put a twist onto some movie posters and why not do it to one of my favourite films! The hitchcock style that I used with these pastel colours just prove that with some care and attention you can make a simple object look abstract and iteresting.
+        %p Skills used
+        %ul
+          %li Abobe photoshop
+          %li Adobe illustrator
+          %li Layout
+          %li Graphic design
+

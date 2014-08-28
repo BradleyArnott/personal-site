@@ -1,0 +1,71 @@
+#container {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+  .project-list {
+    margin: 0;
+    padding: 0;
+
+    .project {
+      margin: 100px 0 0 10px;
+      list-style: none;
+      display: block;
+      float: left;
+      text-align: left;
+      clear: both;
+
+      .project-info {
+        margin-left: 500px;
+      }
+
+      h2 {
+        display: block;
+        margin: 20px 0;
+      }
+
+      p {
+        display: block;
+        margin: 20px 0 0 0;
+        max-width: 500px;
+
+      }
+
+      li {
+        display: block;
+        margin: 10px 0 0 0;
+        padding: 0;
+      }
+
+      .project-graphic {
+        float: left;
+      }
+
+      .logo, .business-card, .poster {
+        width: 480px;
+        clear: both;
+        display: block;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width:800px) {
+
+  #container .project-list .project {
+    .project-info {
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .project-graphic {
+        float: none;
+        width: 480px;
+      }
+
+  }
+}
