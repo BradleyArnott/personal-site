@@ -28,8 +28,6 @@ gem 'haml', '~> 4.0.5'
 
 gem 'pg', '~> 0.17.1'
 
-gem 'sqlite3'
-
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
