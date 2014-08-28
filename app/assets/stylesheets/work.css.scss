@@ -8,7 +8,7 @@
     padding: 0;
 
     .project {
-      margin: 100px 0 0 10px;
+      margin: 100px 10px 0 10px;
       list-style: none;
       display: block;
       float: left;
@@ -54,7 +54,7 @@
 
 
 
-@media (max-width:800px) {
+@media (max-width:750px) {
 
   #container .project-list .project {
     .project-info {

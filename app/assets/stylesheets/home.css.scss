@@ -61,7 +61,6 @@ body {
   .nav-bar:after {
     clear: both;
   }
-
   .home-icon {
     float: left;
     margin: -10px 0 10px 10px;
@@ -88,6 +87,36 @@ body {
     color: #FF9900;
   }
 }
+
+@media screen and (max-width : 650px){
+  .home-icon {
+  }
+  ul {
+    position: static;
+  }
+  li {
+    margin-bottom: 1px;
+  }
+  ul li, li a {
+    width: 100%;
+    margin: 0 0 0 10px;
+  }
+  ul.nav-bar {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .home-icon {
+    margin: 20px 0px;
+  }
+  .content {
+    margin: 40px;
+    padding: 0;
+  }
+
+}
+
 
 #image-container {
   width: 100%;
