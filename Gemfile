@@ -28,6 +28,10 @@ gem 'haml', '~> 4.0.5'
 
 gem 'pg', '~> 0.17.1'
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
+gem 'tzinfo' 
+
 group :production do
   gem 'rails_12factor'
 end
